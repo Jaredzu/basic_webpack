@@ -34,7 +34,33 @@ Probando webpack
 ### Mode (development, production or none):
     Nos permite especificar las condiciones con las cuales queremos qeu se haga el bundle.
 
-5. Instalar dependencias
+5. Instalar webpack
+    $npm install webpack webpack-cli --save-dev
+
+6. Agregar scripts de webpack "dev": 
+    "dev": "webpack --mode development", 
+    "build": "webpack --mode production"
+
+ 7. Crear entry point
+     $ mkdir src 
+     $ touch src/index.js
+
+8. Empaquetamos en modo dev 
+    $ npm run dev
+
+9. Creamos archivo html en dist
+
+10. Instalamos plugin para html
+    $ npm install html-webpack-plugin --save-dev
+
+11. Creamos archivo de config 
+    $ touch webpack.config.js 
+
+12. Instalamos Babel
+    $npm install babel-loader @babel/core @babel/preset-env --save-dev
+
+
+<!-- 5. Instalar dependencias
 
  "devDependencies": {
  	"@babel/core": "^7.20.5",
@@ -47,15 +73,4 @@ Probando webpack
 
  $ npm install 
 
-6. Agregar scripts de webpack "dev": 
-    "webpack --mode development", "build": "webpack --mode production"
-
-7. Crear entry point $ mkdir src $ touch src/index.js
-
-Empaquetamos en modo dev $ npm run dev
-
-Creamos archivo html en dist
-
-Instalamos plugin para html $ npm install html-webpack-plugin --save-dev
-
-Creamos archivo de config $ touch webpack.config.js
+-->
