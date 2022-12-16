@@ -15,7 +15,19 @@ Probando webpack
 4. Crear nuestro proyecto de NPM 
             $ npm init -y
 
-Instalar dependencias
+## Conceptos
+
+### Entry point (puntos de entrada):
+    Es el archivo a partir del cual vamos a cargar todo el arbol de dependecias o modulos.
+    por defecto está configurado para ser ./src/index.js pero se puede cambiar desde la configuración de webpack.
+
+### Output (salida):
+    Es la ubicación y el archivo donde se va a escribir el empaque que hagamos de nuestro código y recursos.
+    Por defecta está configurado en ./dist/main.js y también se puede cambiar desde la configuración.
+
+###
+
+5. Instalar dependencias
 
  "devDependencies": {
  	"@babel/core": "^7.20.5",
@@ -27,9 +39,11 @@ Instalar dependencias
  }
 
  $ npm install 
-Agregar scripts de webpack "dev": "webpack --mode development", "build": "webpack --mode production"
 
-Crear entry point $ mkdir src $ touch src/index.js
+6. Agregar scripts de webpack "dev": 
+    "webpack --mode development", "build": "webpack --mode production"
+
+7. Crear entry point $ mkdir src $ touch src/index.js
 
 Empaquetamos en modo dev $ npm run dev
 
