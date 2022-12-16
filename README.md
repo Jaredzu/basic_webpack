@@ -31,6 +31,9 @@ Probando webpack
 ### Plugins:
     Herramientas que expanden las funcionalidades que no pueden los loaders, por ejemplo mejorar la compresión de los archivos
 
+### Mode (development, production or none):
+    Nos permite especificar las condiciones con las cuales queremos qeu se haga el bundle.
+
 5. Instalar dependencias
 
  "devDependencies": {
