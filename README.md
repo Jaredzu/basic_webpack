@@ -25,7 +25,11 @@ Probando webpack
     Es la ubicación y el archivo donde se va a escribir el empaque que hagamos de nuestro código y recursos.
     Por defecta está configurado en ./dist/main.js y también se puede cambiar desde la configuración.
 
-###
+### Loaders:
+    webpack por defecto solo trabaja con JS y JSON ,para poder entender y procesar otros tipos de archivos debemos usar loaders que son extensiones de la funcionalidad de webpack que dan la posibilidad de importar archivos css o imágenes dentro de nuestro código de javascript.
+
+### Plugins:
+    Herramientas que expanden las funcionalidades que no pueden los loaders, por ejemplo mejorar la compresión de los archivos
 
 5. Instalar dependencias
 
