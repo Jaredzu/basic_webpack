@@ -4,7 +4,9 @@
   "description": "Probando webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Jaredzu/basic_webpack/issues"
   },
-  "homepage": "https://github.com/Jaredzu/basic_webpack#readme"
+  "homepage": "https://github.com/Jaredzu/basic_webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
