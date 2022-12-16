@@ -1,0 +1,20 @@
+{
+  "name": "basic_webpack",
+  "version": "1.0.0",
+  "description": "Probando webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaredzu/basic_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaredzu/basic_webpack/issues"
+  },
+  "homepage": "https://github.com/Jaredzu/basic_webpack#readme"
+}
